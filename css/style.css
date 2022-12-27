@@ -1,0 +1,200 @@
+
+.seccion-titulo{
+    font-size: 2.5rem;
+    padding: 50PX;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    color:blueviolet;
+}
+
+/*Barra de navegacion*/
+.navbar{
+padding: 1rem;
+}
+
+.letranavbar {
+    font-size: 25px;
+    color:whitesmoke;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagen-navbar {
+    padding: 0px 0px 0px 50px;
+}
+/*fin de bara de navegacion*/
+
+/*Inicio Carrusel*/
+
+.fondocarrusel{
+    /*background-image: url(/img/fcarrusel.jpg);*/
+    height: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-inner{
+    background-image: "../img/fcarrusel.jpg";
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicios-imagen{
+    height: 700px;
+    width:  700px;
+    margin: 20px 30px 20px 30px;
+    
+}
+
+.servicios-imagenUNICA{
+    height: 700px;
+    width:  700px;
+    margin: 20px 30px 20px 30px;
+}
+
+.servicios-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.servicios-info p {
+    margin-bottom: 0px;
+}
+
+.servicios-info .servicios {
+    color: black;
+    font-size: 2.5rem;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.servicios-info .descripcion-servicios {
+    color:black;
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Fin CARRUSEL*/
+
+/*Inicio Acordeon*/
+
+.accordion {
+    width: 700px;
+}
+
+.titulo-acordeon {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Concert One', cursive;
+
+}
+
+/*Fin Acordeon*/
+
+/*tabla de productos*/
+
+.table{ 
+    width: 500px;
+}
+/*FIN tabla de productos*/
+
+/*iNICIO DE CONTACTO*/
+.contacto .container{
+    max-width: 1100px;
+    min-height: 150px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+    margin-top: -1rem;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 5px black;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size:  1.5rem;
+    margin-bottom: 20px;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1em 1.5em;
+    border-radius: 50px;
+    transition: all 1s ease-in-out;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 1s ease-in-out;
+}
+
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button:hover i{
+    color: black;
+}
+
+/*Footer*/
+
+.derechos-autor{
+    font-size: 20px;
+    color: #aeaeae;
+    padding: 20px;
+}
+/*Fin Footer*/
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .servicios-imagen {
+    height: 300px;
+    width:  300px;
+    margin: 20px 30px 20px 30px;
+    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .servicios-imagenUNICA {
+    height: 300px;
+    width:  300px;
+    margin: 20px 30px 20px 30px;
+    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-toggler {
+        background-color: white;
+    }
+}
